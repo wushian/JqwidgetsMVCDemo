@@ -534,6 +534,21 @@
       <LastGenOutput>EmployeeModel.cs</LastGenOutput>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\globalization\globalize.culture.cs-CZ.js" />
+    <Content Include="Scripts\globalization\globalize.culture.de-DE.js" />
+    <Content Include="Scripts\globalization\globalize.culture.en-CA.js" />
+    <Content Include="Scripts\globalization\globalize.culture.en-US.js" />
+    <Content Include="Scripts\globalization\globalize.culture.fr-FR.js" />
+    <Content Include="Scripts\globalization\globalize.culture.he-IL.js" />
+    <Content Include="Scripts\globalization\globalize.culture.hr-HR.js" />
+    <Content Include="Scripts\globalization\globalize.culture.hu-HU.js" />
+    <Content Include="Scripts\globalization\globalize.culture.it-IT.js" />
+    <Content Include="Scripts\globalization\globalize.culture.ja-JP.js" />
+    <Content Include="Scripts\globalization\globalize.culture.lt.js" />
+    <Content Include="Scripts\globalization\globalize.culture.ru-RU.js" />
+    <Content Include="Scripts\globalization\globalize.culture.sa-IN.js" />
+    <Content Include="Scripts\globalization\globalize.js" />
+    <Content Include="Scripts\globalization\ReadMe.txt" />
     <Content Include="Scripts\globalize.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

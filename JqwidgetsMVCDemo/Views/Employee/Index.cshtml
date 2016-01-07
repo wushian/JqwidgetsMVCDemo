@@ -42,8 +42,17 @@
                   { text: 'Hire Date', dataField: 'HireDate', cellsFormat: 'd', width: 120 },
                   { text: 'Address', dataField: 'Address', width: 250 },
                   { text: 'City', dataField: 'City', width: 120 },
-                  { text: 'Country', dataField: 'Country' }
+                  { text: 'Country', dataField: 'Country' },
+                  {text:'Detailed',}
                 ]
+            });
+
+            $("#dataTable").on('rowDoubleClick', function (event) {
+                var args = event.args;
+                var index = args.index;
+                var row = args.row;
+                // update the widgets inside jqxWindow.
+                window.location.href = "/Employee/Edit/" + row.EmployeeID;
             });
         });
     </script>

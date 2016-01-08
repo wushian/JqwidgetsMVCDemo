@@ -59,7 +59,8 @@ namespace JqwidgetsMVCDemo
             "~/Scripts/jqxpanel.js",
             "~/Scripts/jqxpasswordinput.js",
             "~/Scripts/jqxnumberinput.js",
-            "~/Scripts/jqxcombobox.js"
+            "~/Scripts/jqxcombobox.js",
+            "~/Scripts/jqxangular.js"
             ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
@@ -90,6 +91,11 @@ namespace JqwidgetsMVCDemo
                 "~/Content/bootstrap.css",
                 "~/Content/site.css"
                 ));
+
+
         }
+
+
+
     }
 }

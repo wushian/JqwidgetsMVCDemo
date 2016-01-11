@@ -14,5 +14,12 @@ namespace JqwidgetsMVCDemo.Controllers
         {
             return View();
         }
+
+        //
+        // GET: /Test/
+        public ActionResult directive_tag()
+        {
+            return View();
+        }
 	}
 }

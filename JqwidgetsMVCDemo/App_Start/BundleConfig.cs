@@ -51,7 +51,7 @@ namespace JqwidgetsMVCDemo
             "~/Scripts/jqxchart.core.js",
             "~/Scripts/jqxchart.rangeselector.js",
             "~/Scripts/jqxtree.js",
-            "~/Scripts/globalize.js",
+            "~/Scripts/globalization/globalize.js",
             "~/Scripts/jqxbulletchart.js",
             "~/Scripts/jqxcheckbox.js",
             "~/Scripts/jqxradiobutton.js",
@@ -60,6 +60,11 @@ namespace JqwidgetsMVCDemo
             "~/Scripts/jqxpasswordinput.js",
             "~/Scripts/jqxnumberinput.js",
             "~/Scripts/jqxcombobox.js",
+            "~/Scripts/jqxwindow.js",
+            "~/Scripts/jqxtooltip.js",
+            "~/Scripts/jqxtabs.js",
+            "~/Scripts/jqxdocking.js",
+            "~/Scripts/jqxsplitter.js",
             "~/Scripts/jqxangular.js"
             ));
 

@@ -21,5 +21,12 @@ namespace JqwidgetsMVCDemo.Controllers
         {
             return View();
         }
+
+        //
+        // GET: /Test/
+        public ActionResult defaultfunctionality()
+        {
+            return View();
+        }
 	}
 }

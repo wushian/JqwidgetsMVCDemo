@@ -28,5 +28,20 @@ namespace JqwidgetsMVCDemo.Controllers
         {
             return View();
         }
+
+        //
+        // GET: /Test/
+        public ActionResult kanban()
+        {
+            return View();
+        }
+
+        //
+        // GET: /Test/
+        public ActionResult mobilekanban()
+        {
+            return View();
+        }
+
 	}
 }

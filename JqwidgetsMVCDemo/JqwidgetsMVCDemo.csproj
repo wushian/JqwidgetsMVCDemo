@@ -160,14 +160,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Employee.cs">
       <DependentUpon>EmployeeModel.tt</DependentUpon>
     </Compile>
@@ -186,7 +184,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EmployeeModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -534,6 +531,7 @@
       <DependentUpon>EmployeeModel.edmx</DependentUpon>
       <LastGenOutput>EmployeeModel.cs</LastGenOutput>
     </Content>
+    <None Include="Properties\PublishProfiles\JqwidgetsMVC.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\globalization\globalize.culture.cs-CZ.js" />
     <Content Include="Scripts\globalization\globalize.culture.de-DE.js" />
@@ -605,6 +603,8 @@
     <Content Include="Scripts\jqxgrid.sort.js" />
     <Content Include="Scripts\jqxgrid.storage.js" />
     <Content Include="Scripts\jqxinput.js" />
+    <Content Include="Scripts\jqxkanban.js" />
+    <Content Include="Scripts\jqxknob.js" />
     <Content Include="Scripts\jqxknockout.js" />
     <Content Include="Scripts\jqxlayout.js" />
     <Content Include="Scripts\jqxlistbox.js" />
@@ -631,6 +631,7 @@
     <Content Include="Scripts\jqxscrollbar.js" />
     <Content Include="Scripts\jqxscrollview.js" />
     <Content Include="Scripts\jqxslider.js" />
+    <Content Include="Scripts\jqxsortable.js" />
     <Content Include="Scripts\jqxsplitter.js" />
     <Content Include="Scripts\jqxswitchbutton.js" />
     <Content Include="Scripts\jqxtabs.js" />
@@ -647,6 +648,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\simulator.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -663,15 +665,6 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
-    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
-    <Content Include="Views\Account\_RemoveAccountPartial.cshtml" />
-    <Content Include="Views\Account\_SetPasswordPartial.cshtml" />
-    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
-    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
-    <Content Include="Views\Account\Login.cshtml" />
-    <Content Include="Views\Account\Manage.cshtml" />
-    <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Employee\Create.cshtml" />
     <Content Include="Views\Employee\Delete.cshtml" />
@@ -679,8 +672,11 @@
     <Content Include="Views\Employee\Edit.cshtml" />
     <Content Include="Views\Employee\Index.cshtml" />
     <Content Include="Views\Test\directive_attribute.cshtml" />
-    <Content Include="Views\Test\directive_tag.cshtml" />
     <Content Include="Views\Test\defaultfunctionality.cshtml" />
+    <Content Include="Views\Test\kanban.cshtml">
+      <BrowseToURL>~/Test/kanban</BrowseToURL>
+    </Content>
+    <Content Include="Views\Test\mobilekanban.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

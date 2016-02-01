@@ -65,7 +65,9 @@ namespace JqwidgetsMVCDemo
             "~/Scripts/jqxtabs.js",
             "~/Scripts/jqxdocking.js",
             "~/Scripts/jqxsplitter.js",
-            "~/Scripts/jqxangular.js"
+            "~/Scripts/jqxangular.js",
+            "~/Scripts/jqxsortable.js",
+            "~/Scripts/jqxkanban.js"
             ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
